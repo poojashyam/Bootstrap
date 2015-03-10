@@ -5,31 +5,42 @@
         <meta name = "viewport" content = "width = device-width, initial-scale= 1.0">
         <title>Page to demonstrate Bootstrap learning</title>
         <link href = "css/bootstrap.min.css" rel = "stylesheet">
+        <link href = "css/superhero-theme-bootstrap.min.css" rel = "stylesheet">
+        <link href = "site.css" rel = "stylesheet">
     </head>
     <body>
         <div id = "page" >
             <header class = "container">
-                <div id = "menu">
-                    <ul>
-                        <li>Home</li>
-                        <li><a href = "about.html">About</a></li>
-                        <li><a href = "contact.html">Contact</a></li>
+                <div id = "menu" class = "navbar navbar-default navbar-fixed-top">
+                    <div class = "navbar-header">
+                    <button class = "btn btn-success navbar-toggle" 
+                            data-toggle = "collapse" 
+                            data-target = ".navbar-collapse"><span class = "glyphicon glyphicon-chevron-down"></span></button>
+                        <div id = "logo">
+                        <h1><a href = '.'>The Big One</a></h1>
+                        </div>   
+                    </div>
+                    <div class = "navbar-collapse collapse">
+                    <ul class= "nav navbar-nav navbar-right">
+                        <li class= " nav active"><a href = ".">Home</a></li>
+                        <li class = "nav"><a href = "about.html">About</a></li>
+                        <li class = "nav"><a href = "contact.html">Contact</a></li>
                     </ul>
+                    </div>
                 </div>    
-                <div id = "logo">
-                    <a href = '.'>The big One</a>
-                </div>
+                
             </header>
             <section id = "body" class = "container">
-                <div class = "row">
-                    <img src= "http://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/172px-Twitter_bird_logo_2012.svg.png" alt = "img1" style = "height: 100px" class = "col-md-2 col-md-offset-2" class="img-thumbnail">
-                    <img src= "http://media.santabanta.com/medium1/nature/birds/birds-208a.jpg" style = "height: 100px" class = "col-md-2" class="img-thumbnail">
-                    <img src= "http://wallpaperskat.com/wp-content/uploads/2014/07/bee-eater-bird-branch-hd-wallpaper-300x187.jpg" alt = "img2" class = "col-md-2" style = "height: 100px" class="img-thumbnail">
-                    <img src= "http://wallpaperskat.com/wp-content/uploads/2014/08/White-owl-With-Bright-Yellow-Eyes-Bird-300x168.jpg" alt = "img2" class = "col-md-2" style = "height: 100px" class="img-thumbnail">
+                <div class = "row hidden-xs">
+                    <img src= "http://www.skyhdwallpaper.com/wp-content/uploads/2014/11/Baby-Duck-Swimming-1024x640.jpg" alt = "img1" style = "height: 100px" class = "col-md-2 col-md-offset-2 img-circle grayscale" class="img-thumbnail">
+                    <img src= "http://media.santabanta.com/medium1/nature/birds/birds-208a.jpg" style = "height: 100px" class = "col-md-2 img-circle grayscale" class="img-thumbnail img-circle grayscale">
+                    <img src= "http://wallpaperskat.com/wp-content/uploads/2014/07/bee-eater-bird-branch-hd-wallpaper-300x187.jpg" alt = "img2" class = "col-md-2 img-circle grayscale" style = "height: 100px" class="img-thumbnail img-circle grayscale">
+                    <img src= "http://wallpaperskat.com/wp-content/uploads/2014/08/White-owl-With-Bright-Yellow-Eyes-Bird-300x168.jpg" alt = "img2" class = "col-md-2 img-circle grayscale" style = "height: 100px" class="img-thumbnail">
                 </div>
                 
                 <section id = "main" class = "col-md-8 col-sm-9">
-                    <h1>The Big one Fan page</h1>
+                    <h1>The Big one My page</h1>
+                    <p class = "text-warning"><strong>Warning!!</strong> This page if only for the Big One fans!</p>
                         <p>Bootstrapping can also refer to the development of successively more complex, faster programming environments. The simplest environment will be, perhaps, a very basic text editor (e.g., ed) and an assembler program. Using these tools, one can write a more complex text editor, and a simple compiler for a higher-level language and so on, until one can have a graphical IDE and an extremely high-level programming language.</p>
                         <img src  = "http://warnerboutique.com/wp-content/uploads/Colorful-Bird-Wallpaper-of-High-Resolution-and-Top-Quality2.jpg" style = "width:400px" class = "pull-right img-thumbnail"/>
                         <p>Historically, bootstrapping also refers to an early technique for computer program development on new hardware. The technique described in this paragraph has been replaced by the use of a cross compiler executed by a pre-existing computer. Bootstrapping in program development began during the 1950s when each program was constructed on paper in decimal code or in binary code, bit by bit (1s and 0s), because there was no high-level computer language, no compiler, no assembler, and no linker. A tiny assembler program was hand-coded for a new computer (for example the IBM 650) which converted a few instructions into binary or decimal code: A1. This simple assembler program was then rewritten in its just-defined assembly language but with extensions that would enable the use of some additional mnemonics for more complex operation codes. The enhanced assembler's source program was then assembled by its predecessor's executable (A1) into binary or decimal code to give A2, and the cycle repeated (now with those enhancements available), until the entire instruction set was coded, branch addresses were automatically calculated, and other conveniences (such as conditional assembly, macros, optimisations, etc.) established. This was how the early assembly program SOAP (Symbolic Optimal Assembly Program) was developed. Compilers, linkers, loaders, and utilities were then coded in assembly language, further continuing the bootstrapping process of developing complex software systems by using simpler software.</p>
