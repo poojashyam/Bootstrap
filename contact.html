@@ -1,10 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
-        <title>Contact page</title>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale= 1.0">
+        <title>Page to demonstrate Bootstrap learning</title>
+        <link href = "css/bootstrap.min.css" rel = "stylesheet">
+        <link href = "css/superhero-theme-bootstrap.min.css" rel = "stylesheet">
+        <link href = "site.css" rel = "stylesheet">
     </head>
     <body>
-        <h3>Contact is yet to be updated.</h3>
+        <div id = "page" >
+            <header class = "container">
+                <div id = "menu" class = "navbar navbar-default navbar-fixed-top">
+                    <div class = "navbar-header">
+                    <button class = "btn btn-success navbar-toggle" 
+                            data-toggle = "collapse" 
+                            data-target = ".navbar-collapse"><span class = "glyphicon glyphicon-chevron-down"></span></button>
+                        <div id = "logo">
+                        <h1><a href = '.'>The Big One</a></h1>
+                        </div>   
+                    </div>
+                    <div class = "navbar-collapse collapse">
+                    <ul class= "nav navbar-nav navbar-right">
+                        <li class= " nav"><a href = "main.html">Home</a></li>
+                        <li class = "nav"><a href = "about.html">About</a></li>
+                        <li class = "nav active"><a href = "contact.html">Contact</a></li>
+                    </ul>
+                    </div>
+                </div>    
+                
+            </header>
+            <section id = "body" class = "container">
+                <div class = "row hidden-xs">
+                    <img src= "http://www.skyhdwallpaper.com/wp-content/uploads/2014/11/Baby-Duck-Swimming-1024x640.jpg" alt = "img1" style = "height: 100px" class = "col-md-2 col-md-offset-2 img-circle grayscale" class="img-thumbnail">
+                    <img src= "http://media.santabanta.com/medium1/nature/birds/birds-208a.jpg" style = "height: 100px" class = "col-md-2 img-circle grayscale" class="img-thumbnail img-circle grayscale">
+                    <img src= "http://wallpaperskat.com/wp-content/uploads/2014/07/bee-eater-bird-branch-hd-wallpaper-300x187.jpg" alt = "img2" class = "col-md-2 img-circle grayscale" style = "height: 100px" class="img-thumbnail img-circle grayscale">
+                    <img src= "http://wallpaperskat.com/wp-content/uploads/2014/08/White-owl-With-Bright-Yellow-Eyes-Bird-300x168.jpg" alt = "img2" class = "col-md-2 img-circle grayscale" style = "height: 100px" class="img-thumbnail">
+                </div>
+                
+                <div class = "col-md-8">
+                <h2> Contact Us!</h2>
+            <p>
+                We love to see you guys come over to our place. This magical free place!!<br>
+                <br>
+                <span style = "color:red"><strong>You can contact us here:</strong></span><br>
+                ROGER BIRD SANCTUARY<br>
+                1430 E BirdLand St<br>
+                Birdie, BL BBBBB
+                <br><br>
+                <span style = "color:red"><strong>Hours of operation:</strong></span>
+                <br>
+                Winter Hours as of November 1<br><br>
+ 
+                Monday - Sunday:<br>
+                9:30 am - 5:00 pm<br>
+                Other times by appointment only, please call 999.999.9999
+ 
+            </p> 
+                    </div>
+            </section>
+        </div>
     </body>
-
 </html>

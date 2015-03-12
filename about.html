@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
-        <title>About Us page</title>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale= 1.0">
+        <title>Page to demonstrate Bootstrap learning</title>
+        <link href = "css/bootstrap.min.css" rel = "stylesheet">
+        <link href = "css/superhero-theme-bootstrap.min.css" rel = "stylesheet">
+        <link href = "site.css" rel = "stylesheet">
     </head>
     <body>
-        <h3>About Us is yet to be updated.</h3>
-    </body>
+        <div id = "page" >
+            <header class = "container">
+                <div id = "menu" class = "navbar navbar-default navbar-fixed-top">
+                    <div class = "navbar-header">
+                    <button class = "btn btn-success navbar-toggle" 
+                            data-toggle = "collapse" 
+                            data-target = ".navbar-collapse"><span class = "glyphicon glyphicon-chevron-down"></span></button>
+                        <div id = "logo">
+                        <h1><a href = '.'>The Big One</a></h1>
+                        </div>   
+                    </div>
+                    <div class = "navbar-collapse collapse">
+                    <ul class= "nav navbar-nav navbar-right">
+                        <li class= " nav"><a href = "main.html">Home</a></li>
+                        <li class = "nav active"><a href = "about.html">About</a></li>
+                        <li class = "nav"><a href = "contact.html">Contact</a></li>
+                    </ul>
+                    </div>
+                </div>    
+                
+            </header>
+            <section id = "body" class = "container">
+                <div class = "row hidden-xs">
+                    <img src= "http://www.skyhdwallpaper.com/wp-content/uploads/2014/11/Baby-Duck-Swimming-1024x640.jpg" alt = "img1" style = "height: 100px" class = "col-md-2 col-md-offset-2 img-circle grayscale" class="img-thumbnail">
+                    <img src= "http://media.santabanta.com/medium1/nature/birds/birds-208a.jpg" style = "height: 100px" class = "col-md-2 img-circle grayscale" class="img-thumbnail img-circle grayscale">
+                    <img src= "http://wallpaperskat.com/wp-content/uploads/2014/07/bee-eater-bird-branch-hd-wallpaper-300x187.jpg" alt = "img2" class = "col-md-2 img-circle grayscale" style = "height: 100px" class="img-thumbnail img-circle grayscale">
+                    <img src= "http://wallpaperskat.com/wp-content/uploads/2014/08/White-owl-With-Bright-Yellow-Eyes-Bird-300x168.jpg" alt = "img2" class = "col-md-2 img-circle grayscale" style = "height: 100px" class="img-thumbnail">
+                </div>
+                <div class = "callout col-md-12"
+                <div class = "col-md-8">
+                <h2> About Us!</h2>
+<p>
+Wow, you clicked on the about us link!  Now I really wish a I had some amazing, harrowing tale of how we Birds  started; something involving capital investment firms, conspiracy, espionage, lawsuits, countersuits, presidential oversight, etc. etc.  But in the end, it’s just a simple, boring, typical love of Birds story.  So if you’re not into that sort of thing, you should just click on the Home link, browse this awesome UI!
 
+Well, you’re still reading.  Ok, here goes.  The story of Birds. Ha Ha for real!!! we do not have a story!!! We are just birds who love being awesome!! And we love flying and swimming and quacking :D!!! tweek tweek... </p> 
+                    </div>
+            </div>
+            </section>
+        </div>
+    </body>
 </html>
